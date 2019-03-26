@@ -27,6 +27,10 @@ install the PyUSB module from the official source using PIP.
 #tkinter doesn't include everything by default
 import tkinter
 from tkinter import *
+#cant open the directory since it cant find filedialog
+from tkinter import filedialog 
+#for the messagebox yes/no since in my case i couldnt open it
+from tkinter import messagebox
 import tkinter.font as tkFont
 
 #file handling and fusee launching
